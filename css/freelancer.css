@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+.paypal {
+    text-align: center;
+}
+
 p {
     font-size: 20px;
 }

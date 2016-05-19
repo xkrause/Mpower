@@ -18,7 +18,7 @@
    $email= mail ($to,$subject,$message,$header);
 
    if( $email== true ) {
-      header("Location: http://reviewmyresume.greenrivertech.net/index.php#contact");
+      header("Location: http://mpoweryouth.greenrivertech.net/");
       echo "Message sent successfully...";
    } else {
       echo "Message could not be sent...";
