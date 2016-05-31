@@ -84,9 +84,17 @@ hr.star-primary:after {
 }
 
 header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background-image: url(../img/performance.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .container {
@@ -105,11 +113,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color: yellow;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: yellow;
 }
 
 @media(min-width:768px) {
